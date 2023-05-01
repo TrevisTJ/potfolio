@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anderson Trevisan - Desenvolvedor Frontend</title>
+
+    <link rel="stylesheet" href="src/css/font-awesome.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
+
+    <!-- Global -->
+    <link rel="stylesheet" href="src/css/globais.css" />
+    <link rel="stylesheet" href="src/css/variaveis.css" />
+    <link rel="stylesheet" href="src/css/secoes/header.css" />
+    <link rel="stylesheet" href="src/css/secoes/home.css" />
+    <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+    <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+    <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+    <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-1Mdp7R6U8v6nXe+GIrNyFT2QwZdLrJ3meP4oHQhYKj+4N/AE4zq/0Bj1Kk7RwDgTfB0OmjJzYmV7pMFrzOxDVg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content-between alinhar-itens-no-centro">
+          <a href="#">
+            <h1 class="logo">AT</h1>
+          </a>
+
+          <nav>
+            <input id="menu-hamburguer" type="checkbox" />
+
+            <label for="menu-hamburguer">
+              <div class="menu">
+                <span class="hamburguer"></span>
+              </div>
+            </label>
+            <ul>
+              <li><a href="#sobre-mim">Sobre mim</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#contatos">Contatos</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="liga-desliga">
+      <input type="checkbox" class="checkbox" id="chk" />
+      <label class="label" for="chk">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+        <div class="ball"></div>
+      </label>
+    </div>
+
+    <section class="home">
+      <div class="container">
+        <div class="row full-screen alinhar-itens-no-centro">
+          <div class="texto-home">
+            <p>Olá 🤙,</p>
+            <h1>Sou o Anderson Trevisan</h1>
+            <h2>Desenvolvedor Frontend Jr</h2>
+
+            <div class="redes-sociais">
+              <a href="https://www.linkedin.com/in/anderson-trevisan-99870b24b/" class="outer-shadow"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="https://github.com/TrevisTJ" class="outer-shadow"><i class="fab fa-github"></i></a>
+              <a href="https://wa.me/15988123623" class="outer-shadow"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="img-home">
+            <div class="img-box inner-shadow">
+              <img
+                class="outer-shadow"
+                src="src/imagem/perfil.png"
+                alt="foto do perfil do Anderson"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sobre-mim section" id="sobre-mim">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Sobre mim</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="imagem-sobre-mim">
+            <div class="img-box inner-shadow">
+              <img
+                src="src/imagem/perfil.png"
+                alt="foto sobre mim"
+                class="outer-shadow"
+              />
+            </div>
+          </div>
+          <div class="informacoes-sobre-mim">
+            <p>
+              <strong
+                >Me chamo Anderson Trevisan e sou um desenvolvedor frontend
+                em formação!</strong
+              >
+              Gosto MUITO da área de tecnologia, e estou disposto a apreender o que for preciso para contribuir para o sucesso do time.
+            </p>
+
+            <p>
+              Estou sempre praticando e me desafiando com novos projetos, procuro participar de
+              comunidades de programação para buscar feedback de outros
+              desenvolvedores e desenvolvedoras. Além de tentar ajudar essas
+              pessoas com o que eu já aprendi. 😁
+            </p>
+
+            <p>
+              Ah, gosto de jogos, filmes, séries e musicas 🎶🎶🎶
+            </p>
+
+            <div class="botoes">
+              <a
+                target="_blank"
+                href="https://www.canva.com/design/DAFP366IAmQ/view"
+                class="botao outer-shadow"
+              >
+                <strong>Veja meu CV</strong></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="habilidades section" id="habilidades">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Habilidades</h2>
+          </div>
+        </div>
+
+        <div class="container-habilidades">
+          <div class="informacoes javascript">
+            <div class="logo">
+              <i class="devicon devicon-javascript-plain" id="javascript"></i>
+            </div>
+            <h3>JavaScript</h3>
+          </div>
+
+          <div class="informacoes html">
+            <div class="logo">
+              <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+            </div>
+            <h3>HTML5</h3>
+          </div>
+
+          <div class="informacoes css">
+            <div class="logo">
+              <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+            </div>
+            <h3>CSS3</h3>
+          </div>
+
+          <div class="informacoes github">
+            <div class="logo">
+              <i class="devicon devicon-github-original" id="github"></i>
+            </div>
+            <h3>GitHub</h3>
+          </div>
+
+          <div class="informacoes git">
+            <div class="logo">
+              <i class="devicon devicon-git-plain" id="git"></i>
+            </div>
+            <h3>Git</h3>
+          </div>
+          <div class="informacoes git">
+            <div class="logo">
+              <i class="devicon-react-original" id="react"></i>
+            </div>
+            <h3>React</h3>
+          </div>
+          <div class="informacoes git">
+            <div class="logo">
+              <i class="devicon-typescript-plain" id="typescript"></i>
+            </div>
+            <h3>Typescript</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projetos section" id="projetos">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Meus projetos</h2>
+          </div>
+        </div>
+
+        <div class="container-projetos">
+          <div class="projeto">
+            <a href="https://github.com/TrevisTJ/landing-page-agencia-xpto">
+              <img
+                src="src/imagem/xpto.png"
+                alt="Agencia XPTO"
+              />
+              <h3>Agencia XPTO</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a href="https://github.com/TrevisTJ/landing-page-salao-da-thamy">
+              <img
+                src="src/imagem/salaothamy.png"
+                alt="landing-page-salao-da-thamy"
+              />
+              <h3>Salão da Thamy</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a href="https://github.com/TrevisTJ/portfolio">
+              <img
+                src="src/imagem/hh.png"
+                alt="Mini-Portfolio"
+              />
+              <h3>Mini-Portfolio></h3>
+              <div class="informacoes-projeto">
+                <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a href="https://github.com/TrevisTJ/mario-kart">
+              <img
+                src="src/imagem/capa-mario-kart.png"
+                alt="Mario Kart"
+              />
+              <h3>Mario-Kart</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contatos">
+      <div class="container">
+        <h2>Me envie uma mensagem!</h2>
+        <div class="redes-sociais">
+          <a href="https://www.linkedin.com/in/anderson-trevisan-99870b24b/" class="outer-shadow"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/TrevisTJ" class="outer-shadow"><i class="fab fa-github"></i></a>
+          <a href="https://wa.me/15988123623" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <button id="voltar-menu"><i class="fa fa-arrow-up"></i></button>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
